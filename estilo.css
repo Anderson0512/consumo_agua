@@ -1,0 +1,315 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 14pt;
+    text-align: center;
+    margin-top: 15px;
+}
+.check {
+    font-size: 12pt;
+    margin-top: 12px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    background: rgb(153, 155, 229);
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.coluna {
+    display: flex;
+}
+.textdata {
+    font-size: 12pt;
+    line-height: 1.5;
+}
+.section {
+    font-size: 10pt;
+    margin-top: 15px;
+    background: rgb(153, 155, 229);
+    border-radius: 18px;
+    padding: 15px;
+    margin: auto;
+    height: 100%;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    overflow: hidden;
+    width: auto;
+}
+.datasL {
+    position: absolute;
+    right: 400px;
+    line-height: 1.7;
+}
+.inumber {
+    display: flex;
+    margin-top: 15px;
+}
+.Lnumber{
+    position: absolute;
+    right: 400px; 
+    line-height: 1.7;
+    overflow: hidden;
+    margin: auto;
+}
+.txtnumber{
+    font-size: 12pt;
+    line-height: 1.5;
+}
+.calcule {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.prev {
+    
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+}
+.prev-blue {
+    background:  rgb(90, 90, 185);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 0  blue;
+}
+.prev-blue:hover{
+    background:  rgb(20, 20, 86);
+    color: #fff;
+    box-shadow: 0 5px 0  blue;
+}
+.prev-blue:active{
+    position: relative;
+    top: 9px;
+    box-shadow:none;
+}
+body {
+    background: rgb(90, 90, 185);
+}
+footer {
+
+    display: flex;  
+}
+.assinatura {
+    font-style: italic;
+    color: white;
+    position: fixed;
+    height: 30px;
+    width: 170px;
+    bottom: 80px;
+    left: 30px;
+}
+.valorInstantaneo {
+    bottom: 110px;
+    position: fixed;
+    right: 150px;
+    color: black;
+}
+.pg2 {
+    bottom: 83px;
+    position: fixed;
+    right: 150px;
+    color: black;
+}
+.zap {
+    color: #0cf520;
+    bottom: 83px;
+    position: fixed;
+    left: 200px;
+    height: 25px;
+    width: 130px;
+}
+.duvidas {
+    font-style: italic;
+    font-size: 10pt;
+    color: white;
+    position: fixed;
+    height: 80px;
+    bottom: 0px;
+    left: 30px;
+    
+}
+.mai {
+    position: fixed;
+    bottom: 83px;
+    left: 340px;
+    height: 25px;
+    width: 230px;
+}
+.clean {
+    
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+}
+.clean-blue {
+    background:  rgb(90, 90, 185);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 blue;
+}
+.clean-blue:hover {
+    background:  rgb(20, 20, 86);
+    color: #fff;
+    box-shadow: 0 5px 0 blue;
+}
+.clean-blue:active {
+    position: relative;
+    top: 9px;
+    box-shadow: none;
+}
+.mensagem {
+    text-align: center;
+}
+@media (max-width: 1024px) {
+    .section {
+        width: auto;
+        overflow: hidden;
+    }
+    .Lnumber{
+        position: absolute;
+        right: 3%;
+        line-height: 1.7;
+        overflow: hidden;
+        margin: auto;
+    }
+    .datasL{
+        position: absolute;
+        right: 3%; 
+        line-height: 1.7;
+        overflow: hidden;
+        margin: auto;
+    }
+    .check {
+        font-size: 12pt;
+        margin-top: 12px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 8px;
+        background: rgb(153, 155, 229);
+        margin-left: auto;
+        margin-right: auto; 
+        width: auto;
+    }
+}
+@media (max-width: 2000px) {
+    .section {
+        width: auto;
+        overflow: hidden;
+    }
+    .Lnumber{
+        position: absolute;
+        right: 3%; 
+        line-height: 1.7;
+        overflow: hidden;
+        margin: auto;
+    }
+    .datasL{
+        position: absolute;
+        right: 3%; 
+        line-height: 1.7;
+        overflow: hidden;
+        margin: auto;
+    }
+    .check {
+        font-size: 12pt;
+        margin-top: 12px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 8px;
+        background: rgb(153, 155, 229);
+        margin-left: auto;
+        margin-right: auto; 
+        width: auto;
+    }
+}
+@media (max-width: 800px) {
+    .section {
+        width: auto;
+        overflow: hidden;
+    }
+    .Lnumber{
+        position: absolute;
+        right: 3%;
+        line-height: 1.7;
+        overflow: hidden;
+        margin: auto;
+    }
+    .datasL{
+        position: absolute;
+        right: 3%;
+        line-height: 1.7;
+        overflow: hidden;
+        margin: auto;
+    }
+    .check {
+        font-size: 12pt;
+        margin-top: 12px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 8px;
+        background: rgb(153, 155, 229);
+        margin-left: auto;
+        margin-right: auto; 
+        width: auto;
+    }
+    .pg2 {
+        bottom: 83px;
+        position: fixed;
+        right: 50px;
+        color: black;
+    }
+    .valorInstantaneo {
+        top: 500px;
+        position: fixed;
+        right: 150px;
+        color: black;
+    }
+}
+@media (max-width: 360px){
+    .textdata{
+        position: absolute;
+        left: 3%;
+        line-height: 1.7;
+        overflow: hidden;
+        margin: auto;
+        font-size: 12pt;
+    }
+    .calcule {
+        font-size: 4pt;
+        margin-top: 40px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 8px;
+        background: rgb(153, 155, 229);
+        margin-left: auto;
+        margin-right: auto; 
+        width: auto;
+    }
+    .coluna{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .pg2 {
+        bottom: 83px;
+        position: fixed;
+        right: 50px;
+        color: black;
+    }
+    .valorInstantaneo {
+        top: 500px;
+        position: fixed;
+        left: 10px;
+        color: black;
+        width: 300px;
+    }
+}

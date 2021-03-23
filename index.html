@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="icon" type='image/jpg' href="gota.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo Água</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <h1 style=>Calcule o Valor e Consumo de Água</h1>
+</header>
+<div class="check">
+    <p>Tipo de Consumidor:
+        <input type="radio" name="radres" id="com" checked>
+        <label for="com">Comercial</label>
+        <input type="radio" name="radres" id="resi">
+        <label for="resi">Residencial</label>
+    </p> 
+</div>
+<section class="section">
+    <div class="coluna">
+        <div class="textdata">
+            <p>Data Leitura Anterior:</p>
+            <p>Data Leitura Atual:</p>
+            <p>Data Próxima Leitura:</p>
+        </div>
+        <div class="datasL">
+            <p><input type="date" name="ndata" id="ndata"></p>
+            <p><input type="date" name="adata" id="adata"></p>
+            <p><input type="date" name="pdata" id="pdata"></p>
+        </div>
+    </div>    
+        <div class="inumber">
+            <div class="txtnumber">
+                <p>Leitura Anterior:</p>
+                <p>Leitura Atual:</p>
+            </div>
+            <div class="Lnumber">
+                <p><input type="number" name="txtant" placeholder="digite valor anterior" id="txtant"></p>
+                <p><input type="number" name="txtatual" placeholder="digite valor atual" id="txtatual"></p>
+            </div>
+        </div>
+    <div class="calcule">
+        <button class="clean clean-blue" onclick="sampleFunction()">Limpar</button>
+        <button class="prev prev-blue" onclick="previsao()">Calcular</button>
+    </div>
+    <div class="mensagem">
+        <div id="res"></div>
+        <div id="dtl"></div>
+        <div id="pm3"></div>
+        <div id="pag"></div>
+        <div id="prox"></div>
+    </div>
+</section>
+<footer>
+    <a class="mai" href="mailto:anderson.estsantos@gmail.com">
+        <i class="fa fa-envelope" aria-hidden="true"> anderson.estsantos@gmail.com</i>
+    </a>
+    <a class="zap" href="https://api.whatsapp.com/send?phone=5511980709256" target="_blank">
+        <i class="fa fa-whatsapp">  11 98070.9256
+        </i>
+    </a>
+    <p class="assinatura">&copy; Anderson Esteves</p>
+    <p class="duvidas">Contate-me para mais informações. Click no ícone!!!!!</p>
+    <a class="valorInstantaneo" href="valorIns.html">>> Valor com m3, calcule aqui >></a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

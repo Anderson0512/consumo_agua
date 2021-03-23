@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Calculo Água</title>
+</head>
+<body>
+<header>
+    <h1 style=>Calcule o Valor gasto</h1>
+</header>
+<div class="check">
+    <p>Tipo de Consumidor:
+        <input type="radio" name="radres" id="com" checked>
+        <label for="com">Comercial</label>
+        <input type="radio" name="radres" id="resi">
+        <label for="resi">Residencial</label>
+    </p> 
+</div>
+<section class="section">
+    <div class="coluna">
+        <div class="textdata">
+            <p>Digite a quantidade de m3:</p>
+        </div>
+        <div class="Lnumber">
+            <p><input type="number" name="txttot" placeholder="Digite total m3" id="txttot"></p>
+        </div>
+    </div>    
+    <div class="calcule">
+        <button class="clean clean-blue" onclick="sampleFunction()">Limpar</button>
+        <button class="prev prev-blue" onclick="previsao()">Calcular
+        </button>
+    </div>
+    <div class="mensagem">
+        <div id="res"></div>
+        <div id="dtl"></div>
+        <div id="pm3"></div>
+        <div id="pag"></div>
+        <div id="prox"></div>
+    </div>
+</section>
+<a class="pg2" href="index.html"><< Voltar  << </a>
+<script src="script2.js"></script>
+</body>
+</html>
